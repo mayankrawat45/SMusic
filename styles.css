@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #e2dfd7;
+}
+
+nav{
+     font-family: 'Open Sans', sans-serif;
+     font-size: small;
+     background-color: black;
+     color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 11px;
+}
+.brand img{
+     width: 49px;
+     padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.container{
+   min-height: 65vh;
+   background-color: black;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   display: flex;
+   width: 70%;  
+   margin: 23px auto;
+   border-radius: 17px;
+   padding: 34px;
+   background-image: url(img/spotify2.png);
+   background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottomgif{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    left: 9vw;
+    margin-top: 22px;
+}
+.bottomgif img{
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+i{
+    padding: 0 3px;
+}
+#myProgressBar{
+   width: 80vw;
+   cursor: pointer;
+}
+
+.songlist {
+    width: 50%;
+}
+
+
+.songItem{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    align-items: center;
+    justify-content:space-between;
+    /* gap: 15px; */
+    padding: 0 8px ;
+    border-radius: 34px;
+}
+.songItem img{
+    display: block;
+    object-fit: cover; 
+    width:40px;
+    height: 40px; 
+    border-radius: 50%;
+}
+
+.songListPlay{
+    display: flex;
+    align-items: center;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
